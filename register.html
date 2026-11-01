@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register - RE CRAFT ECOFARM</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css?v=1.2" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <nav>
+                        <ul class="clearfix">
+                            <li><a href="index.html">กลับสู่หน้าแรก</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="register-box">
+                    <h2>สมัครสมาชิก</h2>
+                    <form action="/register" method="POST">
+                        <div class="form-group">
+                            <label for="email">อีเมล:</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="โปรดกรอกอีเมล" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">รหัสผ่าน:</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="โปรดกรอกรหัสผ่าน" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">ยืนยันรหัสผ่าน:</label>
+                            <input type="password" id="confirm-password" name="confirm-password" class="form-control" placeholder="ยืนยันรหัสผ่าน" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">สมัครสมาชิก</button>
+                    </form>
+                    <p>มีบัญชีอยู่แล้ว? <a href="login.html">เข้าสู่ระบบ</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 RE CRAFT ECOFARM. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
